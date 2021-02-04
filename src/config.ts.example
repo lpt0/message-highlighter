@@ -1,0 +1,19 @@
+/**
+ * @file config.ts
+ * @description Contains all configuration for the bot, apart from the token.
+ */
+
+/**
+ * The ID of the emoji to watch for.
+ */
+export const EMOJI_ID = "";
+
+/**
+ * The authorized user ID.
+ */
+export const AUTHOR_ID = "";
+
+/**
+ * The channel to export images of highlighted messages to.
+ */
+export const CHANNEL_ID = "";
