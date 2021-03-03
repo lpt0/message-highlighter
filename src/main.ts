@@ -35,10 +35,10 @@ async function onReactionAdd(reaction: MessageReaction, user: User | PartialUser
   }
 }
 
+Bot.on("messageReactionAdd", onReactionAdd);
 Bot.on("ready", () => {
   console.log(`${Bot.user?.username} is ready.`);
 });
 
-Bot.on("messageReactionAdd", onReactionAdd);
 
 Bot.login(readFileSync("authorization").toString());
